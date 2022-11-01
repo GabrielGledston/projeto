@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    height: 100%;
+    font-family:serif;
+    background: white;
+    z-index: 10;
+    position: relative;
+
+}
+
+
+
+div.titulo {
+    font-size: 2.3em;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+    height: 110px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(0, 0, 0);
+    font-weight:600;
+    background: linear-gradient(90deg, rgba(18,133,186,1) 6%, rgba(44,153,205,1) 16%, rgba(56,173,231,1) 50%, rgba(111,192,233,1) 75%, rgba(129,200,236,1) 87%, rgba(203,234,250,1) 100%); 
+}
+
+title{
+    font-size: 0.2em;
+}
+
+.titulo10{
+    padding-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+
+}
+
+
+div.op1 { 
+   /* font-family: 'Poppins', sans-serif;
+   font-size: 2em; */
+   margin-top: -100px;
+   margin-left: -130px;
+   z-index: -10;
+   position: relative;
+  
+}
+
+div.op2 {
+    width: fit-content;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    color:#1a1818;
+    display: block;
+    font-size: 1.4em;
+    right: 10px;
+    text-align: left;
+    top: -68vh;
+    left: 140vh;
+} 
+ 

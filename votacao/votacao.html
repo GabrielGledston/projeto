@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votação</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+</head>
+
+</head>
+
+<body>
+    <header id="header">
+        <img src="imgs/logo.png" alt="" width="150px">
+        <div class="title">Votação</div>
+    </header>
+
+    <div class="contForm">
+        <div class="centerForm">
+            <div class="container">
+                <div class="forms">
+                    <div class="formLogin">
+                        <span class="title"></span>
+                        <form onsubmit="cadastraUsuario()"  >
+                            <div class="center">
+                                <div class="titleCenter">
+                                    <h1>Dados de contato</h1>
+                                </div>
+                                <div class="formInput">
+                                    <input type="text" name="nome" id="nome" placeholder="Nome completo" required>
+                                    <i class="las la-user"></i>
+                                </div>
+                                <div class="formInput">
+                                    <input type="tel" name="telefone" id="telefone" maxlength="15"
+                                        pattern="\(\d{2}\)\s*\d{5}-\d{4}" placeholder="Telefone: Ex. (89)9 9999-9999"
+                                        required>
+                                    <i class="las la-phone"></i>
+                                </div>
+                                <div class="formInput"><input type="email" name="email" id="email"
+                                        placeholder="Digite seu email(opcional)" >
+                                    <i class="las la-envelope"></i>
+                                </div>
+                            </div>
+
+                    </div>
+
+                    <div class="contGeral">
+                        <div class="main-container">
+                            <h2 id="title1">Qual foi o melhor projeto?</h2>
+                            <div class="radio-buttons">
+                                <label class="custom-radio">
+                                    <input type="radio" name="radio" id="info" value="Informática" checked>
+                                    <span class="radio-btn"><i class="las la-check"></i>
+                                        <div class="project-icon">
+                                            <i class="las la-laptop-code"></i>
+                                            <h3>Informática</h3>
+                                        </div>
+                                    </span>
+                                </label>
+                                <label class="custom-radio">
+                                    <input type="radio" name="radio" id="enfe" value="Enfermagem">
+                                    <span class="radio-btn"><i class="las la-check"></i>
+                                        <div class="project-icon">
+                                            <i class="las la-stethoscope"></i>
+                                            <h3>Enfermagem</h3>
+                                        </div>
+                                    </span>
+                                </label>
+                                <label class="custom-radio">
+                                    <input type="radio" name="radio" id="recu" value="Recursos">
+                                    <span class="radio-btn"><i class="las la-check"></i>
+                                        <div class="project-icon">
+                                            <img
+                                                src="https://img.icons8.com/fluency-systems-regular/96/000000/human-resources.png" />
+                                            <h3>Recursos Humanos</h3>
+                                        </div>
+                                    </span>
+                                </label>
+                                <label class="custom-radio">
+                                    <input type="radio" name="radio" id="juri" value="juridicos">
+                                    <span class="radio-btn"><i class="las la-check"></i>
+                                        <div class="project-icon">
+                                            <i class="las la-balance-scale-left"></i>
+                                            <h3>Serviços jurídicos</h3>
+                                        </div>
+                                    </span>
+                                </label>
+                                <label class="custom-radio">
+                                    <input type="radio" name="radio" id="clini" value="Analises">
+                                    <span class="radio-btn"><i class="las la-check"></i>
+                                        <div class="project-icon">
+                                            <i class="las la-microscope"></i>
+                                            <h3>Análises clínicas</h3>
+                                        </div>
+                                    </span>
+                                </label>
+                                <label class="custom-radio">
+                                    <input type="radio" name="radio" id="farma" value="Farmácia">
+                                    <span class="radio-btn"><i class="las la-check"></i>
+                                        <div class="project-icon">
+                                            <i class="las la-pills"></i>
+                                            <h3>Farmácia</h3>
+                                        </div>
+                                    </span>
+                                </label>
+                                <label class="custom-radio">
+                                    <input type="radio" name="radio" id="redes" value="redes">
+                                    <span class="radio-btn"><i class="las la-check"></i>
+                                        <div class="project-icon">
+                                            <i class="las la-project-diagram"></i>
+                                            <h3>Redes</h3>
+                                        </div>
+                                    </span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit"><img src="imgs/btnEnviar.png" alt="" width="120px"></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="post.js"></script>
+    <script src="tele.js"></script>
+</body>
+
+</html>
